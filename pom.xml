@@ -1,7 +1,8 @@
 <project>
-
   <version>3.0.0</version>
-
+  <group>abc</greoup>
+  <version>1.0.0</version>
+  <artifact-id>sg-core</artifact-id>
 <depedency>
 </project>
 
