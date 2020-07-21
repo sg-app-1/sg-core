@@ -5,5 +5,9 @@
   <artifact-id>sg-core</artifact-id>
 <depedency>
 </dependency>  
+
+<profile>
+
+</profile>
 </project>
 
