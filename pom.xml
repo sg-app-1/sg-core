@@ -6,7 +6,16 @@
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>sg-core</name>
-  <url>http://maven.apache.org</url>
+  <repositories>
+    <repository>
+      <id>sg-public</id>
+      <url>http://52.151.46.87:8081/nexus/content/groups/sg-public/</url>
+    </repository>
+     <repository>
+      <id>maven-public</id>
+      <url>http://maven.apache.org</url>
+    </repository>
+  </repositories>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
