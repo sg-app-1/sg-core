@@ -36,7 +36,7 @@
       <uniqueVersion>true</uniqueVersion>
       <id>sgcore-snapshots</id>
       <name>sgcore-snapshots</name>
-      <url>http://10.0.05:8081/repository/sgcore-snapshots</url>
+      <url>http://10.0.0.5:8081/repository/sgcore-snapshots</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
