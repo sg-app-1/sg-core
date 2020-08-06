@@ -1,7 +1,7 @@
 node('maven-label') {
     def mvnHome
     stage('Preparation') { 
-        git branch: 'master', url: 'https://github.com/sg-app-1/sg-core.git'
+        git branch: '${branch_name}', url: 'https://github.com/sg-app-1/sg-core.git'
         mvnHome = tool 'maven-3.6.3'
     }
     stage('Build') {
