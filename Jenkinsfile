@@ -8,7 +8,7 @@ node('maven-label') {
         
         withEnv(["MVN_HOME=$mvnHome"]) {
             if (isUnix()) {
-                sh '"$MVN_HOME/bin/mvn" -P sgcore-deploy clean deploy'
+                sh '"$MVN_HOME/bin/mvn" -Psgcore-deploy clean deploy'
             } else {
                 bat(/"%MVN_HOME%\bin\mvn" -Dmaven.test.failure.ignore clean package/)
             }
